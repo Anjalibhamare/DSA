@@ -20,4 +20,4 @@ int main()
     
 }
 /*One function cannot access value of another function directly but it 
-can access it indirectly through pointers*/
+can access it indirectly through the pointers*/
