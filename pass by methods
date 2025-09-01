@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
+using namespace std;
+
+void swap(int a,int b){
+    int temp;
+    temp=a;
+    a=b;
+    b=temp;
+    }
+
+int main()
+{
+    int x,y;
+    x=5;
+    y=10;
+    swap(x,y);
+    printf("swaped numbers are\n %d\n %d",x,y);
+    
+}
+/* In pass by value actual parameters will not be modified if any 
+changes are done to the formal parameters*/
