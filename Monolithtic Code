@@ -1,0 +1,15 @@
+//calclate area and peremeter of rectangle by taking input from user (monolithic code)
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
+using namespace std;
+
+int main(){
+    int area,peremeter,lenght=0,bredth=0;
+    cin>>lenght>>bredth;
+    area = lenght * bredth;
+    peremeter=2*lenght*bredth;
+ 
+    printf("area of rectangle is %d %d",area,peremeter);
+ 
+}
